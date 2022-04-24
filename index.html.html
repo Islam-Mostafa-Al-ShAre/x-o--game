@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>x-o game</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   
+    <section class="data container">
+      <div class="players-score">
+        <span class="f-player">player1 :</span>
+        <span class="s-player">player2 :</span>
+      </div>
+
+      <span class="new-btn">New</span>
+
+      <div class="players-name">
+        <input class="player1-name" type="text" placeholder="player1...." />
+        <input class="player2-name" type="text" placeholder="player2...." />
+      </div>
+    </section>
+
+    <section class="game container middle-scree">
+      <div name="r1-c1" class="game-square r1-c1"></div>
+      <div name="r1-c2" class="game-square r1-c3"></div>
+      <div name="r1-c3" class="game-square r1-c2"></div>
+      <div name="r2-c1" class="game-square r2-c1"></div>
+      <div name="r2-c2" class="game-square r2-c2"></div>
+      <div name="r2-c3" class="game-square r2-c3"></div>
+      <div name="r3-c1" class="game-square r3-c1"></div>
+      <div name="r3-c2" class="game-square r3-c2"></div>
+      <div name="r3-c3" class="game-square r3-c3"></div>
+    </section>
+    <div class="novalidate">
+      <p style="font-size: 20px;">Enter players names</p>
+      <input class=" pointer btn" type="button" value="OK">
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
